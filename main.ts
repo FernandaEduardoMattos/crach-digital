@@ -1,6 +1,10 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
+    basic.showString("FERNANDA")
+})
+input.onButtonPressed(Button.B, function () {
+    basic.clearScreen()
 })
 basic.forever(function () {
     basic.showString("FERNANDA")
+    basic.showIcon(IconNames.Happy)
 })
